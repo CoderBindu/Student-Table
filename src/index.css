@@ -1,0 +1,128 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin:0;
+  padding:0;
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+}
+
+.container{
+  max-width: 900px;
+  margin:50px auto;
+  padding:25px;
+  background:#f8f9fa;
+  border-radius:15px;
+  box-shadow:0 10px 20px rgba(0,0,0,0.1);
+  text-align:center;
+}
+
+/* Headline & Subtitle */
+.headline{
+  font-size:2rem;
+  color:#1a1a1a;
+  font-weight:bold;
+  background: linear-gradient(to right, #ff758c, #ff7eb3, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle{
+  font-size:1.1rem;
+  color:#333;
+  margin-bottom:25px;
+}
+
+/* Form Inputs */
+.student-form input{
+  display:block;
+  width:100%;
+  padding:12px;
+  margin:12px 0;
+  border-radius:8px;
+  border:1px solid #ccc;
+  font-size:1rem;
+}
+
+.student-form input:focus{
+  border-color:#007bff;
+  outline:none;
+}
+
+/* Buttons */
+.action-btn{
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  color:#fff;
+  padding:10px 20px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  font-weight:bold;
+  margin:10px 5px;
+  transition:0.3s;
+}
+
+.action-btn:hover{
+  background: linear-gradient(to right, #0056b3, #00a3cc);
+}
+
+.download-btn{
+  background: linear-gradient(to right, #28a745, #85e085);
+}
+
+.download-btn:hover{
+  background: linear-gradient(to right, #1e7e34, #6bc96b);
+}
+
+/* Table */
+.student-table{
+  width:100%;
+  border-collapse: collapse;
+  margin-top:20px;
+}
+
+.student-table th, .student-table td{
+  padding:12px;
+  border:1px solid #ccc;
+  text-align:center;
+  color:#1a1a1a;
+}
+
+.student-table th{
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+  color:white;
+}
+
+.student-table tr:nth-child(even){
+  background:#f0f4ff;
+}
+
+.student-table tr:hover{
+  background:#d9e6ff;
+}
+
+/* Edit/Delete buttons */
+.edit-btn{
+  background:#ffc107;
+  color:#333;
+  padding:6px 12px;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.edit-btn:hover{
+  background:#e0a800;
+  color:white;
+}
+
+.delete-btn{
+  background:#dc3545;
+  color:white;
+  padding:6px 12px;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.delete-btn:hover{
+  background:#a71d2a;
+}
